@@ -1,8 +1,11 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
+  "homepage": "https://waleed79.github.io/",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,6 +32,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.2.0"
   }
 }
