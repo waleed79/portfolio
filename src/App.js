@@ -1,8 +1,11 @@
 import './App.css';
+import UnderConstruction from './UnderConstruction';
 
 function App(){
   return (
     <div className = "App">
+      <UnderConstruction />
+    
       <div className="name"> 
         Waleed A.
       </div>
