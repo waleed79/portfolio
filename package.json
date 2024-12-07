@@ -1,9 +1,10 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "https://waleed79.github.io/",
+  "homepage": "https://waleed79.github.io/portfolio",
   "main": "index.js",
   "scripts": {
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
